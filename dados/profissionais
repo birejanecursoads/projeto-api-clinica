@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nome": "Dra. Mariana Costa",
+    "especialidade": "Clínica Geral",
+    "disponibilidade": [
+      "Segunda-feira 08:00 às 12:00",
+      "Quarta-feira 14:00 às 18:00"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Dr. Rafael Mendes",
+    "especialidade": "Cardiologia",
+    "disponibilidade": [
+      "Terça-feira 09:00 às 12:00",
+      "Quinta-feira 13:00 às 17:00"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Dra. Fernanda Lima",
+    "especialidade": "Nutrição",
+    "disponibilidade": [
+      "Segunda-feira 14:00 às 18:00",
+      "Sexta-feira 08:00 às 12:00"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Dr. Carlos Henrique",
+    "especialidade": "Pediatria",
+    "disponibilidade": [
+      "Quarta-feira 08:00 às 12:00",
+      "Sexta-feira 14:00 às 18:00"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Dra. Juliana Souza",
+    "especialidade": "Dermatologia",
+    "disponibilidade": [
+      "Terça-feira 14:00 às 18:00",
+      "Quinta-feira 08:00 às 12:00"
+    ]
+  }
+]
