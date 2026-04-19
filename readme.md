@@ -37,3 +37,54 @@ No terminal:
 ```bash
 mkdir projeto-api-clinica
 cd projeto-api-clinica
+
+2. Inicializar o Node.js
+npm init -y
+3. Instalar o Express
+npm install express
+4. Criar a estrutura
+
+Crie:
+
+a pasta dados
+o arquivo dados/profissionais.json
+o arquivo server.js
+5. Executar a API
+node server.js
+
+O servidor ficará disponível em:
+
+http://localhost:3000
+Rotas da API
+Listar todos os profissionais
+GET /profissionais
+
+Exemplo:
+
+http://localhost:3000/profissionais
+Listar especialidades
+GET /especialidades
+
+Exemplo:
+
+http://localhost:3000/especialidades
+Filtrar por especialidade
+GET /profissionais/especialidade/:especialidade
+
+Exemplo:
+
+http://localhost:3000/profissionais/especialidade/Cardiologia
+Buscar por nome
+GET /profissionais/busca?nome=mariana
+
+Exemplo:
+
+http://localhost:3000/profissionais/busca?nome=mariana
+Tecnologias Utilizadas
+Node.js
+Express
+JavaScript
+JSON
+Autor
+
+Desenvolvido para a disciplina de Desenvolvimento Web.
