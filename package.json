@@ -1,0 +1,14 @@
+{
+  "name": "api-clinica-saude",
+  "version": "1.0.0",
+  "description": "API para consulta de profissionais de saúde",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
